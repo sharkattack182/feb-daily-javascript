@@ -54,4 +54,37 @@
 // Write the function that takes three dimensions of a brick: height(a), width(b) and depth(c) and returns true if this brick can fit into a hole with the width(w) and height(h).
 // Difficulty: Hard
 // Date: Feb 3 2021
-// Solve Time: 
+// Solve Time: 7 min
+
+function doesBrickFit(a,b,c,w,h) {
+    let brickHeight = a;
+    let brickWidth = b;
+    let brickDepth = c;
+    let holeHeight = h;
+    let holeWidth = w;
+
+    let fits = 0;
+
+    if(brickHeight <= holeHeight || brickHeight <= holeWidth) {
+        fits ++;
+        }
+
+    if(brickWidth <= holeHeight || brickWidth <= holeWidth) {
+        fits ++;
+    }
+    if(brickDepth <= holeHeight || brickDepth <= holeWidth) {
+        fits ++;
+    }
+
+
+    if(fits >= 2) {
+        console.log(true)
+    } else {
+        console.log(false)
+    }
+}
+
+
+doesBrickFit(1, 1, 1, 1, 1);
+doesBrickFit(1, 2, 1, 1, 1);
+doesBrickFit(1, 2, 2, 1, 1);
