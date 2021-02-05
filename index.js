@@ -128,6 +128,26 @@
 // Create a function that converts Celcius to Fahrenheit and vice versa.
 // Difficulty: Hard
 // Date: Feb 5 2021
-// Solve Time: 
+// Solve Time: 16 min
+
+
+function convert(string) {
+    if(string.includes("F")) {
+    var degreesF = parseFloat(string);
+    var tempCelcius = (degreesF - 32) * 5/9;
+    console.log(Math.round(tempCelcius) + " °C");
+    } else if(string.includes("C")) {
+     var degreesC = parseFloat(string);
+     var tempFaren = (degreesC * 9/5) + 32;
+     console.log(Math.round(tempFaren) + " °F")   
+    } else {
+        console.log("Not a temp")
+    }
+} 
+
+
+convert("35°C");
+convert("19°F");
+convert("33");
 
 
