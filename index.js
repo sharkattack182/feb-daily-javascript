@@ -95,5 +95,30 @@
 // Given a string, reverse all the words which have odd length. The even length words are not changed.
 // Difficulty: Hard
 // Date: Feb 4 2021
-// Solve Time: 
+// Solve Time: 17 min
 
+function reverseOdd(string) {
+    var returnArray = [];
+    var array = string.split(" ");
+    for (let i = 0; i < array.length; i++) {
+        let item = array[i]
+        if(item.length % 2 == 0) {
+            returnArray.push(item);
+        } else {
+            var normArr = item.split("");
+            let newArr = []
+            for (let j = normArr.length -1; j >= 0; j--) {
+                newArr.push(normArr[j]);
+                
+            }
+            var rev = newArr.join("");
+            returnArray.push(rev)
+        }
+        
+    }
+    console.log(returnArray.join(" "))
+}
+
+reverseOdd("Bananas");
+reverseOdd("One two three four");
+reverseOdd("Make sure uoy only esrever sdrow of ddo length");
