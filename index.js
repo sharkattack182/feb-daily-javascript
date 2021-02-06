@@ -155,8 +155,30 @@
 // Create a function that takes a string and returns the first character that repeats. If there is no repeat of a character, return "-1".
 // Difficulty: Hard
 // Date: Feb 6 2021
-// Solve Time: 
+// Solve Time: 6 min
 
 
+function firstRepeat(string) {
+    var newString ="";
+    var repeatLetter = "";
+    var arr = string.split("");
+    for (let i = 0; i < arr.length; i++) {
+        const letter = arr[i];
+        if(newString.includes(letter)) {
+            repeatLetter = letter;
+        } else {
+            newString += letter;
+        }
+    }
 
+    if(repeatLetter === "") {
+        console.log("-1")
+    } else {
+        console.log(repeatLetter);
+    }
+}
 
+firstRepeat("legolas");
+firstRepeat("Gandalf");
+firstRepeat("Balrog");
+firstRepeat("Isildur");
