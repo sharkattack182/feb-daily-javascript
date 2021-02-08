@@ -190,6 +190,11 @@
 // Date: Feb 7 2021
 // Solve Time: 
 
+function getLength(array) {
+    console.log(array.flat(Infinity).length)
+}
 
-
-
+getLength([1, [2, 3]]);
+getLength([1, [2, [3, 4]]]);
+getLength([1, [2, [3, [4, [5, 6]]]]]);
+getLength([1, [2], 1, [2], 1]);
