@@ -158,27 +158,38 @@
 // Solve Time: 6 min
 
 
-function firstRepeat(string) {
-    var newString ="";
-    var repeatLetter = "";
-    var arr = string.split("");
-    for (let i = 0; i < arr.length; i++) {
-        const letter = arr[i];
-        if(newString.includes(letter)) {
-            repeatLetter = letter;
-        } else {
-            newString += letter;
-        }
-    }
+// function firstRepeat(string) {
+//     var newString ="";
+//     var repeatLetter = "";
+//     var arr = string.split("");
+//     for (let i = 0; i < arr.length; i++) {
+//         const letter = arr[i];
+//         if(newString.includes(letter)) {
+//             repeatLetter = letter;
+//         } else {
+//             newString += letter;
+//         }
+//     }
 
-    if(repeatLetter === "") {
-        console.log("-1")
-    } else {
-        console.log(repeatLetter);
-    }
-}
+//     if(repeatLetter === "") {
+//         console.log("-1")
+//     } else {
+//         console.log(repeatLetter);
+//     }
+// }
 
-firstRepeat("legolas");
-firstRepeat("Gandalf");
-firstRepeat("Balrog");
-firstRepeat("Isildur");
+// firstRepeat("legolas");
+// firstRepeat("Gandalf");
+// firstRepeat("Balrog");
+// firstRepeat("Isildur");
+
+
+// Length of a nested array
+// Write a function that returns the total number of non-nested items in a nested array.
+// Difficulty: Hard
+// Date: Feb 7 2021
+// Solve Time: 
+
+
+
+
