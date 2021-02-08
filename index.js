@@ -190,11 +190,19 @@
 // Date: Feb 7 2021
 // Solve Time: 
 
-function getLength(array) {
-    console.log(array.flat(Infinity).length)
-}
+// function getLength(array) {
+//     console.log(array.flat(Infinity).length)
+// }
 
-getLength([1, [2, 3]]);
-getLength([1, [2, [3, 4]]]);
-getLength([1, [2, [3, [4, [5, 6]]]]]);
-getLength([1, [2], 1, [2], 1]);
+// getLength([1, [2, 3]]);
+// getLength([1, [2, [3, 4]]]);
+// getLength([1, [2, [3, [4, [5, 6]]]]]);
+// getLength([1, [2], 1, [2], 1]);
+
+
+// Oddish vs Evenish
+// Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
+// Difficulty: Hard
+// Date: Feb 8 2021
+// Solve Time: 
+
