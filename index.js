@@ -230,4 +230,26 @@
 // Create a function that takes a string and returns it back in camelCase.
 // Difficulty: Hard
 // Date: Feb 9 2021
-// Solve Time: 
+// Solve Time: 23 min
+
+function camelCasing(string) {
+    if(string.includes("_")) {
+        noUnder = string.replace("_"," ")
+    } else{
+        noUnder = string;
+    }
+    var lower = noUnder.toLowerCase();
+    var arr = lower.split(" ");
+
+    let camCase = arr[0].toString();
+    for (let i = 1; i < arr.length; i++) {
+        const element = arr[i];
+        let upper = element.charAt(0).toUpperCase() + element.slice(1);
+        camCase += upper;
+    }
+    console.log(camCase);
+}
+
+camelCasing("Hello World");
+camelCasing("snake_case");
+camelCasing("low high_HIGH");
