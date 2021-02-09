@@ -206,21 +206,28 @@
 // Date: Feb 8 2021
 // Solve Time: 4 min
 
-function oddishOrEvenish(num) {
-    let sum = 0;
-    var arr = num.toString().split("");
-    for (let i = 0; i < arr.length; i++) {
-        const element = arr[i];
-        sum += parseInt(element);
-    }
+// function oddishOrEvenish(num) {
+//     let sum = 0;
+//     var arr = num.toString().split("");
+//     for (let i = 0; i < arr.length; i++) {
+//         const element = arr[i];
+//         sum += parseInt(element);
+//     }
 
-    if(sum % 2 === 0) {
-        console.log("Evenish")
-    } else {
-        console.log("Oddish")
-    }
-}
+//     if(sum % 2 === 0) {
+//         console.log("Evenish")
+//     } else {
+//         console.log("Oddish")
+//     }
+// }
 
-oddishOrEvenish(43);
-oddishOrEvenish(373);
-oddishOrEvenish(4433);
+// oddishOrEvenish(43);
+// oddishOrEvenish(373);
+// oddishOrEvenish(4433);
+
+
+// Changing a string into camelCase
+// Create a function that takes a string and returns it back in camelCase.
+// Difficulty: Hard
+// Date: Feb 9 2021
+// Solve Time: 
