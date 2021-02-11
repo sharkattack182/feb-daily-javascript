@@ -232,24 +232,46 @@
 // Date: Feb 9 2021
 // Solve Time: 23 min
 
-function camelCasing(string) {
-    if(string.includes("_")) {
-        noUnder = string.replace("_"," ")
-    } else{
-        noUnder = string;
-    }
-    var lower = noUnder.toLowerCase();
-    var arr = lower.split(" ");
+// function camelCasing(string) {
+//     if(string.includes("_")) {
+//         noUnder = string.replace("_"," ")
+//     } else{
+//         noUnder = string;
+//     }
+//     var lower = noUnder.toLowerCase();
+//     var arr = lower.split(" ");
 
-    let camCase = arr[0].toString();
-    for (let i = 1; i < arr.length; i++) {
-        const element = arr[i];
-        let upper = element.charAt(0).toUpperCase() + element.slice(1);
-        camCase += upper;
+//     let camCase = arr[0].toString();
+//     for (let i = 1; i < arr.length; i++) {
+//         const element = arr[i];
+//         let upper = element.charAt(0).toUpperCase() + element.slice(1);
+//         camCase += upper;
+//     }
+//     console.log(camCase);
+// }
+
+// camelCasing("Hello World");
+// camelCasing("snake_case");
+// camelCasing("low high_HIGH");
+
+
+// Combinations
+// Create a function that takes a variable number of arguments, each argument representing the number of items in a group, and returns the number of permutations (combinations) of items that you could get by taking one item from each group.
+// Difficulty: Hard
+// Date: Feb 10 2021
+// Solve Time: 10 min
+
+function combinations(...nums) {
+    let combos = nums[0];
+    for (let i = 1; i < nums.length; i++) {
+        if(nums[i] !== 0) {
+            combos *= nums[i];
+        }
     }
-    console.log(camCase);
+
+    console.log(combos);
 }
 
-camelCasing("Hello World");
-camelCasing("snake_case");
-camelCasing("low high_HIGH");
+combinations(2, 3);
+combinations(3, 7, 4);
+combinations(2, 3, 4, 5);
