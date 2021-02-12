@@ -261,17 +261,26 @@
 // Date: Feb 10 2021
 // Solve Time: 10 min
 
-function combinations(...nums) {
-    let combos = nums[0];
-    for (let i = 1; i < nums.length; i++) {
-        if(nums[i] !== 0) {
-            combos *= nums[i];
-        }
-    }
+// function combinations(...nums) {
+//     let combos = nums[0];
+//     for (let i = 1; i < nums.length; i++) {
+//         if(nums[i] !== 0) {
+//             combos *= nums[i];
+//         }
+//     }
 
-    console.log(combos);
-}
+//     console.log(combos);
+// }
 
-combinations(2, 3);
-combinations(3, 7, 4);
-combinations(2, 3, 4, 5);
+// combinations(2, 3);
+// combinations(3, 7, 4);
+// combinations(2, 3, 4, 5);
+
+
+
+// Scoring a field goal
+// In (American) Football, a team can score if they manage to kick a ball through the goal (i.e. above the crossbar and between the uprights). Create a function that returns true if the ball 0 goes through the goal. You will be given an array of arrays.
+// Difficulty: Hard
+// Date: Feb 11 2021
+// Solve Time: 
+
