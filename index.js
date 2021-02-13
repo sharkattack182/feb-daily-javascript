@@ -268,51 +268,58 @@
 // Date: Feb 11 2021
 // Solve Time: 18 min
 
-function isGoalScored(...arrays) {
-  var mainArr = arrays[0];
-  var fieldGoal = false;
-  for (let i = 0; i < 3; i++) {
-    const element = mainArr[i];
-    for (let j = 0; j < element.length; j++) {
-      const smallArr = element[j];
-      if (smallArr.includes(0)) {
-        for (let r = 3; r < 7; r++) {
-          const element = smallArr[r];
-          if (element === "0") {
-            fieldGoal = true;
-          }
-        }
-      }
-    }
-  }
-  console.log(fieldGoal);
-}
+// function isGoalScored(...arrays) {
+//   var mainArr = arrays[0];
+//   var fieldGoal = false;
+//   for (let i = 0; i < 3; i++) {
+//     const element = mainArr[i];
+//     for (let j = 0; j < element.length; j++) {
+//       const smallArr = element[j];
+//       if (smallArr.includes(0)) {
+//         for (let r = 3; r < 7; r++) {
+//           const element = smallArr[r];
+//           if (element === "0") {
+//             fieldGoal = true;
+//           }
+//         }
+//       }
+//     }
+//   }
+//   console.log(fieldGoal);
+// }
 
-isGoalScored([
-  ["  #     #  "],
-  ["  #  0  #  "],
-  ["  #     #  "],
-  ["  #######  "],
-  ["     #     "],
-  ["     #     "],
-  ["     #     "],
-]);
-isGoalScored([
-  ["  #0    #  "],
-  ["  #     #  "],
-  ["  #     #  "],
-  ["  #######  "],
-  ["     #     "],
-  ["     #     "],
-  ["     #     "],
-]);
+// isGoalScored([
+//   ["  #     #  "],
+//   ["  #  0  #  "],
+//   ["  #     #  "],
+//   ["  #######  "],
+//   ["     #     "],
+//   ["     #     "],
+//   ["     #     "],
+// ]);
+// isGoalScored([
+//   ["  #0    #  "],
+//   ["  #     #  "],
+//   ["  #     #  "],
+//   ["  #######  "],
+//   ["     #     "],
+//   ["     #     "],
+//   ["     #     "],
+// ]);
 
-isGoalScored([
-  ["  #     #  "],
-  ["  #     #  "],
-  ["  #     # 0"],
-  ["  #######  "],
-  ["     #     "],
-  ["     #     "],
-  ["     #     "],
-]);
+// isGoalScored([
+//   ["  #     #  "],
+//   ["  #     #  "],
+//   ["  #     # 0"],
+//   ["  #######  "],
+//   ["     #     "],
+//   ["     #     "],
+//   ["     #     "],
+// ]);
+
+
+// Anti Array
+// Given two arrays, return whether the two arrays are opposites of each other. That means both arrays are comprised only from elements a and b and the occurrences of these elements are swapped between the two arrays.
+// Difficulty: Hard
+// Date: Feb 12 2021
+// Solve Time: 
