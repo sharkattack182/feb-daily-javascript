@@ -324,18 +324,26 @@
 // Date: Feb 12 2021
 // Solve Time: 
 
-function isAntiArray(arr1, arr2) {
+// function isAntiArray(arr1, arr2) {
 
-  const stringify = arr => JSON.stringify(Array.from(new Set([...arr].sort())))
-	if(stringify(arr1) === stringify(arr2) && arr1.every((e, i) => e !== arr2)) {
-    console.log(true);
-  } else {
-    console.log(false)
-  }
+//   const stringify = arr => JSON.stringify(Array.from(new Set([...arr].sort())))
+// 	if(stringify(arr1) === stringify(arr2) && arr1.every((e, i) => e !== arr2)) {
+//     console.log(true);
+//   } else {
+//     console.log(false)
+//   }
 
 
-}
+// }
 
-isAntiArray(["1", "0", "0", "1"], ["0", "1", "1", "0"]);
-isAntiArray(["apples", "bananas", "bananas"], ["bananas", "apples", "apples"]);
-isAntiArray([3.14, "True", 3.14], [3.14, "False", 3.14]);
+// isAntiArray(["1", "0", "0", "1"], ["0", "1", "1", "0"]);
+// isAntiArray(["apples", "bananas", "bananas"], ["bananas", "apples", "apples"]);
+// isAntiArray([3.14, "True", 3.14], [3.14, "False", 3.14]);
+
+
+
+// Get Real Type
+// Create a function that takes a value as an argument and returns the type of this value. You should get the real type of a value (JavaScript typeof doesn't return the real object type of values and you need to fix that).
+// Difficulty: Hard
+// Date: Feb 13 2021
+// Solve Time: 
