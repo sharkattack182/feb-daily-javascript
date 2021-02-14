@@ -323,3 +323,19 @@
 // Difficulty: Hard
 // Date: Feb 12 2021
 // Solve Time: 
+
+function isAntiArray(arr1, arr2) {
+
+  const stringify = arr => JSON.stringify(Array.from(new Set([...arr].sort())))
+	if(stringify(arr1) === stringify(arr2) && arr1.every((e, i) => e !== arr2)) {
+    console.log(true);
+  } else {
+    console.log(false)
+  }
+
+
+}
+
+isAntiArray(["1", "0", "0", "1"], ["0", "1", "1", "0"]);
+isAntiArray(["apples", "bananas", "bananas"], ["bananas", "apples", "apples"]);
+isAntiArray([3.14, "True", 3.14], [3.14, "False", 3.14]);
