@@ -349,31 +349,38 @@
 // Solve Time: 20 min
 
 
-function realType(data) {
-  var dataType;
-  if(typeof data !== "object") {
-    dataType = typeof data
-  }
-  else if(Object.prototype.toString.call(data) === '[object Array]') {
-  dataType = "array"
-  } else {
-    dataType = null;
-  }
+// function realType(data) {
+//   var dataType;
+//   if(typeof data !== "object") {
+//     dataType = typeof data
+//   }
+//   else if(Object.prototype.toString.call(data) === '[object Array]') {
+//   dataType = "array"
+//   } else {
+//     dataType = null;
+//   }
 
-  console.log(dataType)
-}
+//   console.log(dataType)
+// }
 
-realType(1) ;
-// "number"
+// realType(1) ;
+// // "number"
 
-realType("a") ;
-// "string"
+// realType("a") ;
+// // "string"
 
-realType(true) ;
-// "boolean"
+// realType(true) ;
+// // "boolean"
 
-realType([]) ;
-// "array"
+// realType([]) ;
+// // "array"
 
-realType(null);
-// "null"
+// realType(null);
+// // "null"
+
+
+// Xs and Os Nobody Knows
+// Create a function that takes a string, checks if it has the same number of x's and o's and returns either true or false.
+// Difficulty: Hard
+// Date: Feb 14 2021
+// Solve Time: 
