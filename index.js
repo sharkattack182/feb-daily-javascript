@@ -385,36 +385,46 @@
 // Date: Feb 14 2021
 // Solve Time: 7 minutes
 
-function XO(string) {
-  let workingStr = string.toLowerCase();
-  let workingArr = workingStr.split("");
-  let x = 0;
-  let o = 0;
-  let equal = true;
-  workingArr.forEach(letter => {
-    if(letter === "x") {
-      x++;
-    } else if (letter === "o") {
-      o++;
-    }
-  });
+// function XO(string) {
+//   let workingStr = string.toLowerCase();
+//   let workingArr = workingStr.split("");
+//   let x = 0;
+//   let o = 0;
+//   let equal = true;
+//   workingArr.forEach(letter => {
+//     if(letter === "x") {
+//       x++;
+//     } else if (letter === "o") {
+//       o++;
+//     }
+//   });
 
-  if(x !== o) {
-    equal = false;
-  }
+//   if(x !== o) {
+//     equal = false;
+//   }
 
-  console.log(equal)
-}
+//   console.log(equal)
+// }
 
 
-XO("ooxx");
+// XO("ooxx");
 
-XO("xooxx");
+// XO("xooxx");
 
-XO("ooxXm");
-// Case insensitive.
+// XO("ooxXm");
+// // Case insensitive.
 
-XO("zpzpzpp");
-// Returns true if no x and o.
+// XO("zpzpzpp");
+// // Returns true if no x and o.
 
-XO("zzoo");
+// XO("zzoo");
+
+
+// Return the Middle Characters of a string
+// Create a function that takes a string and returns the middle character(s). If the word's length is odd, return the middle character. If the word's length is even, return the middle two characters.
+// Difficulty: Medium
+// Date: Feb 15 2021
+// Solve Time: 
+
+
+
