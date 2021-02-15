@@ -424,7 +424,22 @@
 // Create a function that takes a string and returns the middle character(s). If the word's length is odd, return the middle character. If the word's length is even, return the middle two characters.
 // Difficulty: Medium
 // Date: Feb 15 2021
-// Solve Time: 
+// Solve Time: 14 minutes
 
+function getMiddle(string) {
+  if(string.length % 2 == 0) {
+    let returnString = "";
+    let mid = string.length / 2;
+    returnString += string.charAt(mid - 1);
+    returnString += string.charAt(mid);
+    console.log(returnString)
+  } else {
+    console.log(string.charAt(string.length / 2))
+  }
+}
 
-
+getMiddle("test");
+getMiddle("testing");
+getMiddle("middle");
+getMiddle("A");
+getMiddle("Cytoskeleton")
