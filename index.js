@@ -383,4 +383,38 @@
 // Create a function that takes a string, checks if it has the same number of x's and o's and returns either true or false.
 // Difficulty: Hard
 // Date: Feb 14 2021
-// Solve Time: 
+// Solve Time: 7 minutes
+
+function XO(string) {
+  let workingStr = string.toLowerCase();
+  let workingArr = workingStr.split("");
+  let x = 0;
+  let o = 0;
+  let equal = true;
+  workingArr.forEach(letter => {
+    if(letter === "x") {
+      x++;
+    } else if (letter === "o") {
+      o++;
+    }
+  });
+
+  if(x !== o) {
+    equal = false;
+  }
+
+  console.log(equal)
+}
+
+
+XO("ooxx");
+
+XO("xooxx");
+
+XO("ooxXm");
+// Case insensitive.
+
+XO("zpzpzpp");
+// Returns true if no x and o.
+
+XO("zzoo");
