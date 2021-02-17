@@ -426,20 +426,28 @@
 // Date: Feb 15 2021
 // Solve Time: 14 minutes
 
-function getMiddle(string) {
-  if(string.length % 2 == 0) {
-    let returnString = "";
-    let mid = string.length / 2;
-    returnString += string.charAt(mid - 1);
-    returnString += string.charAt(mid);
-    console.log(returnString)
-  } else {
-    console.log(string.charAt(string.length / 2))
-  }
-}
+// function getMiddle(string) {
+//   if(string.length % 2 == 0) {
+//     let returnString = "";
+//     let mid = string.length / 2;
+//     returnString += string.charAt(mid - 1);
+//     returnString += string.charAt(mid);
+//     console.log(returnString)
+//   } else {
+//     console.log(string.charAt(string.length / 2))
+//   }
+// }
 
-getMiddle("test");
-getMiddle("testing");
-getMiddle("middle");
-getMiddle("A");
-getMiddle("Cytoskeleton")
+// getMiddle("test");
+// getMiddle("testing");
+// getMiddle("middle");
+// getMiddle("A");
+// getMiddle("Cytoskeleton")
+
+
+
+// Remove the letters ABC
+// Create a function that will remove the letters "a", "b" and "c" from the given string and return the modified version. If the given string does not contain "a", "b", or "c", return null.
+// Difficulty: Medium
+// Date: Feb 16 2021
+// Solve Time: 
