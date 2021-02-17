@@ -450,4 +450,27 @@
 // Create a function that will remove the letters "a", "b" and "c" from the given string and return the modified version. If the given string does not contain "a", "b", or "c", return null.
 // Difficulty: Medium
 // Date: Feb 16 2021
-// Solve Time: 
+// Solve Time: 10 minutes
+
+function removeABC(string) {
+  if(!string.includes("a") || !string.includes("b") || !string.includes("b")) {
+    console.log(null)
+  }
+  else {
+    var array = string.split("");
+    var newString = ""
+    console.log(array)
+    for (let i = 0; i < array.length; i++) {
+      const element = array[i];
+      if(element !== "a" && element !== "b" && element !== "c") {
+        newString += element
+        
+      }
+    }
+    console.log(newString)
+  }
+}
+
+removeABC("This might be a bit hard");
+removeABC("hello world!");
+removeABC("");
