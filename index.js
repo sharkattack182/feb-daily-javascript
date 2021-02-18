@@ -481,3 +481,23 @@
 // Difficulty: Medium
 // Date: Feb 17 2021
 // Solve Time: 
+
+
+function isPalindrome(string) {
+  str = string.toLowerCase();
+  arr = str.split("");
+  let compareStr = ""
+ for (let i = arr.length - 1; i > -1; i--) {
+   const element = arr[i];
+   compareStr += element
+ }
+  
+ if(string.toLowerCase() === compareStr) {
+   console.log(true)
+ } else {
+  console.log(false)
+ }
+}
+
+isPalindrome("Neuquen");
+isPalindrome("Not a palindrome")
