@@ -452,25 +452,32 @@
 // Date: Feb 16 2021
 // Solve Time: 10 minutes
 
-function removeABC(string) {
-  if(!string.includes("a") || !string.includes("b") || !string.includes("b")) {
-    console.log(null)
-  }
-  else {
-    var array = string.split("");
-    var newString = ""
-    console.log(array)
-    for (let i = 0; i < array.length; i++) {
-      const element = array[i];
-      if(element !== "a" && element !== "b" && element !== "c") {
-        newString += element
+// function removeABC(string) {
+//   if(!string.includes("a") || !string.includes("b") || !string.includes("b")) {
+//     console.log(null)
+//   }
+//   else {
+//     var array = string.split("");
+//     var newString = ""
+//     console.log(array)
+//     for (let i = 0; i < array.length; i++) {
+//       const element = array[i];
+//       if(element !== "a" && element !== "b" && element !== "c") {
+//         newString += element
         
-      }
-    }
-    console.log(newString)
-  }
-}
+//       }
+//     }
+//     console.log(newString)
+//   }
+// }
 
-removeABC("This might be a bit hard");
-removeABC("hello world!");
-removeABC("");
+// removeABC("This might be a bit hard");
+// removeABC("hello world!");
+// removeABC("");
+
+
+// Check if string is a Palindrome
+// Write a function that takes a string and determines whether it's a palindrome or not. The function should return a boolean (true or false value).
+// Difficulty: Medium
+// Date: Feb 17 2021
+// Solve Time: 
