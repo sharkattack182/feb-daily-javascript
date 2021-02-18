@@ -483,21 +483,28 @@
 // Solve Time: 
 
 
-function isPalindrome(string) {
-  str = string.toLowerCase();
-  arr = str.split("");
-  let compareStr = ""
- for (let i = arr.length - 1; i > -1; i--) {
-   const element = arr[i];
-   compareStr += element
- }
+// function isPalindrome(string) {
+//   str = string.toLowerCase();
+//   arr = str.split("");
+//   let compareStr = ""
+//  for (let i = arr.length - 1; i > -1; i--) {
+//    const element = arr[i];
+//    compareStr += element
+//  }
   
- if(string.toLowerCase() === compareStr) {
-   console.log(true)
- } else {
-  console.log(false)
- }
-}
+//  if(string.toLowerCase() === compareStr) {
+//    console.log(true)
+//  } else {
+//   console.log(false)
+//  }
+// }
 
-isPalindrome("Neuquen");
-isPalindrome("Not a palindrome")
+// isPalindrome("Neuquen");
+// isPalindrome("Not a palindrome");
+
+
+// Lets Sort this Array
+// Create a function that takes an array of numbers arr, a string str and return an array of numbers as per the following rules:
+// Difficulty: Medium
+// Date: Feb 18 2021
+// Solve Time: 
