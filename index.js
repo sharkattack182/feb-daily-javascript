@@ -507,4 +507,27 @@
 // Create a function that takes an array of numbers arr, a string str and return an array of numbers as per the following rules:
 // Difficulty: Medium
 // Date: Feb 18 2021
-// Solve Time: 
+// Solve Time: 7 min
+
+function ascDesNone(array, string) {
+  
+  switch(string) {
+    case "Asc":
+      console.log(array.sort(function(a,b) {
+        return a - b;
+      }))
+      break;
+    case "Des":
+      console.log(array.sort(function(a,b) {
+        return b - a;
+      }))
+      break;
+    case "None":
+      console.log(array);
+      break;
+  }
+}
+
+ascDesNone([4, 3, 2, 1], "Asc" );
+ascDesNone([7, 8, 11, 66], "Des");
+ascDesNone([1, 2, 3, 4], "None");
