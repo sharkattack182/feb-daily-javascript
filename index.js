@@ -539,6 +539,23 @@
 // Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
 // Difficulty: Medium
 // Date: Feb 19 2021
-// Solve Time: 
+// Solve Time: 4 minutes
+
+function oddishOrEvenish(num) {
+  var arr = JSON.stringify(num).split("");
+  var sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += parseInt(arr[i]);
+  }
+  if(sum % 2 === 0) {
+    console.log("Evenish")
+  } else {
+    console.log("Oddish")
+  }
+}
+
+oddishOrEvenish(43);
+oddishOrEvenish(373);
+oddishOrEvenish(4433);
 
 
