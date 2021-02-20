@@ -509,25 +509,36 @@
 // Date: Feb 18 2021
 // Solve Time: 7 min
 
-function ascDesNone(array, string) {
+// function ascDesNone(array, string) {
   
-  switch(string) {
-    case "Asc":
-      console.log(array.sort(function(a,b) {
-        return a - b;
-      }))
-      break;
-    case "Des":
-      console.log(array.sort(function(a,b) {
-        return b - a;
-      }))
-      break;
-    case "None":
-      console.log(array);
-      break;
-  }
-}
+//   switch(string) {
+//     case "Asc":
+//       console.log(array.sort(function(a,b) {
+//         return a - b;
+//       }))
+//       break;
+//     case "Des":
+//       console.log(array.sort(function(a,b) {
+//         return b - a;
+//       }))
+//       break;
+//     case "None":
+//       console.log(array);
+//       break;
+//   }
+// }
 
-ascDesNone([4, 3, 2, 1], "Asc" );
-ascDesNone([7, 8, 11, 66], "Des");
-ascDesNone([1, 2, 3, 4], "None");
+// ascDesNone([4, 3, 2, 1], "Asc" );
+// ascDesNone([7, 8, 11, 66], "Des");
+// ascDesNone([1, 2, 3, 4], "None");
+
+
+
+
+// Oddish vs. Evenish
+// Create a function that determines whether a number is Oddish or Evenish. A number is Oddish if the sum of all of its digits is odd, and a number is Evenish if the sum of all of its digits is even. If a number is Oddish, return "Oddish". Otherwise, return "Evenish".
+// Difficulty: Medium
+// Date: Feb 19 2021
+// Solve Time: 
+
+
