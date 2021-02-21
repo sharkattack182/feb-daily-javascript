@@ -563,4 +563,20 @@
 // Create a function that squares every digit of a number.
 // Difficulty: Medium
 // Date: Feb 20 2021
-// Solve Time: 
+// Solve Time: 6 min
+
+function squareDigits(num) {
+  var arr = JSON.stringify(num).split("");
+  var numString = "";
+  arr.forEach(number => {
+    number = parseInt(number);
+    var sum = number * number;
+    numString += sum;
+  });
+
+  console.log(numString)
+}
+
+squareDigits(9119);
+squareDigits(2483);
+squareDigits(3212);
