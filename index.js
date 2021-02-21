@@ -541,21 +541,26 @@
 // Date: Feb 19 2021
 // Solve Time: 4 minutes
 
-function oddishOrEvenish(num) {
-  var arr = JSON.stringify(num).split("");
-  var sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    sum += parseInt(arr[i]);
-  }
-  if(sum % 2 === 0) {
-    console.log("Evenish")
-  } else {
-    console.log("Oddish")
-  }
-}
+// function oddishOrEvenish(num) {
+//   var arr = JSON.stringify(num).split("");
+//   var sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += parseInt(arr[i]);
+//   }
+//   if(sum % 2 === 0) {
+//     console.log("Evenish")
+//   } else {
+//     console.log("Oddish")
+//   }
+// }
 
-oddishOrEvenish(43);
-oddishOrEvenish(373);
-oddishOrEvenish(4433);
+// oddishOrEvenish(43);
+// oddishOrEvenish(373);
+// oddishOrEvenish(4433);
 
 
+// Square every Digit
+// Create a function that squares every digit of a number.
+// Difficulty: Medium
+// Date: Feb 20 2021
+// Solve Time: 
