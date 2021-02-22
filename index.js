@@ -565,18 +565,25 @@
 // Date: Feb 20 2021
 // Solve Time: 6 min
 
-function squareDigits(num) {
-  var arr = JSON.stringify(num).split("");
-  var numString = "";
-  arr.forEach(number => {
-    number = parseInt(number);
-    var sum = number * number;
-    numString += sum;
-  });
+// function squareDigits(num) {
+//   var arr = JSON.stringify(num).split("");
+//   var numString = "";
+//   arr.forEach(number => {
+//     number = parseInt(number);
+//     var sum = number * number;
+//     numString += sum;
+//   });
 
-  console.log(numString)
-}
+//   console.log(numString)
+// }
 
-squareDigits(9119);
-squareDigits(2483);
-squareDigits(3212);
+// squareDigits(9119);
+// squareDigits(2483);
+// squareDigits(3212);
+
+
+// Multiply the numbers in a string
+// Given a string of numbers separated by a comma and space, return the product of the numbers.
+// Difficulty: Medium
+// Date: Feb 21 2021
+// Solve Time:
