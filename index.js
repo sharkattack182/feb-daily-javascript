@@ -588,18 +588,39 @@
 // Date: Feb 21 2021
 // Solve Time: 5 min
 
-function multiplyNums(string) {
-  var arr = string.split(", ");
-  let base = arr[0];
-  for (let i = 1; i < arr.length; i++) {
-    const element = arr[i];
-    base = base * element;
-  }
+// function multiplyNums(string) {
+//   var arr = string.split(", ");
+//   let base = arr[0];
+//   for (let i = 1; i < arr.length; i++) {
+//     const element = arr[i];
+//     base = base * element;
+//   }
 
-  console.log(base)
-}
+//   console.log(base)
+// }
 
-multiplyNums("2, 3");
-multiplyNums("1, 2, 3, 4");
-multiplyNums("54, 75, 453, 0");
-multiplyNums("10, -2");
+// multiplyNums("2, 3");
+// multiplyNums("1, 2, 3, 4");
+// multiplyNums("54, 75, 453, 0");
+// multiplyNums("10, -2");
+
+
+
+// GEt sum of people budgets
+// Create the function that takes an array with objects and returns the sum of people's budgets.
+// Difficulty: Medium
+// Date: Feb 22 2021
+// Solve Time: 
+
+
+getBudgets([
+  { name: "John", age: 21, budget: 23000 },
+  { name: "Steve",  age: 32, budget: 40000 },
+  { name: "Martin",  age: 16, budget: 2700 }
+]);
+
+getBudgets([
+  { name: "John",  age: 21, budget: 29000 },
+  { name: "Steve",  age: 32, budget: 32000 },
+  { name: "Martin",  age: 16, budget: 1600 }
+]);
