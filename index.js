@@ -612,23 +612,33 @@
 // Date: Feb 22 2021
 // Solve Time: 3 min
 
-function getBudgets(object) {
-  const budget = object.reduce((currentTotal, person) => {
-    return person.budget  + currentTotal
-  }, 0)
+// function getBudgets(object) {
+//   const budget = object.reduce((currentTotal, person) => {
+//     return person.budget  + currentTotal
+//   }, 0)
 
-  console.log(budget)
-}
+//   console.log(budget)
+// }
 
 
-getBudgets([
-  { name: "John", age: 21, budget: 23000 },
-  { name: "Steve",  age: 32, budget: 40000 },
-  { name: "Martin",  age: 16, budget: 2700 }
-]);
+// getBudgets([
+//   { name: "John", age: 21, budget: 23000 },
+//   { name: "Steve",  age: 32, budget: 40000 },
+//   { name: "Martin",  age: 16, budget: 2700 }
+// ]);
 
-getBudgets([
-  { name: "John",  age: 21, budget: 29000 },
-  { name: "Steve",  age: 32, budget: 32000 },
-  { name: "Martin",  age: 16, budget: 1600 }
-]);
+// getBudgets([
+//   { name: "John",  age: 21, budget: 29000 },
+//   { name: "Steve",  age: 32, budget: 32000 },
+//   { name: "Martin",  age: 16, budget: 1600 }
+// ]);
+
+
+
+// Even or Odd number of Factors
+// Create a function that returns "even" if a number has an even number of factors and "odd" if a number has an odd number of factors.
+// Difficulty: Medium
+// Date: Feb 23 2021
+// Solve Time: 
+
+
