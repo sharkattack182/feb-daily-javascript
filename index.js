@@ -641,4 +641,14 @@
 // Date: Feb 23 2021
 // Solve Time: 
 
+function factorGroup(num) {
+  if(num % Math.sqrt(num) === 0) {
+    console.log("odd")
+  } else {
+    console.log("even")
+  }
+}
 
+factorGroup(33);
+factorGroup(36);
+factorGroup(7);
