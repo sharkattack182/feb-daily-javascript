@@ -610,7 +610,15 @@
 // Create the function that takes an array with objects and returns the sum of people's budgets.
 // Difficulty: Medium
 // Date: Feb 22 2021
-// Solve Time: 
+// Solve Time: 3 min
+
+function getBudgets(object) {
+  const budget = object.reduce((currentTotal, person) => {
+    return person.budget  + currentTotal
+  }, 0)
+
+  console.log(budget)
+}
 
 
 getBudgets([
