@@ -659,4 +659,21 @@
 // Create a function that takes a string as an argument and converts the first character of each word to uppercase. Return the newly formatted string.
 // Difficulty: Medium
 // Date: Feb 24 2021
-// Solve Time: 
+// Solve Time: 6 minutes
+
+function makeTitle(string) {
+  var arr = string.split(" ");
+  var returnArr = []
+  arr.forEach(word => {
+    var wordCap = word.charAt(0).toUpperCase() + word.slice(1)
+    returnArr.push(wordCap)
+  });
+
+  var returnString = returnArr.join(" ");
+  console.log(returnString)
+}
+
+makeTitle("This is a title");
+makeTitle("capitalize every word");
+makeTitle("I Like Pizza");
+makeTitle("PIZZA PIZZA PIZZA");
