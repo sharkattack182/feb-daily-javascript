@@ -641,14 +641,22 @@
 // Date: Feb 23 2021
 // Solve Time: 
 
-function factorGroup(num) {
-  if(num % Math.sqrt(num) === 0) {
-    console.log("odd")
-  } else {
-    console.log("even")
-  }
-}
+// function factorGroup(num) {
+//   if(num % Math.sqrt(num) === 0) {
+//     console.log("odd")
+//   } else {
+//     console.log("even")
+//   }
+// }
 
-factorGroup(33);
-factorGroup(36);
-factorGroup(7);
+// factorGroup(33);
+// factorGroup(36);
+// factorGroup(7);
+
+
+
+// Capitalize the First Letter of Each Word
+// Create a function that takes a string as an argument and converts the first character of each word to uppercase. Return the newly formatted string.
+// Difficulty: Medium
+// Date: Feb 24 2021
+// Solve Time: 
