@@ -684,4 +684,15 @@
 // Create a function that takes two arguments: the original price and the discount percentage as integers and returns the final price after the discount.
 // Difficulty: Medium
 // Date: Feb 25 2021
-// Solve Time: 
+// Solve Time: 4 minutes
+
+function dis(total, disc) {
+  var discPerc = disc / 100;
+  var discount = total * discPerc;
+  console.log(total - discount)
+}
+
+
+dis(1500, 50);
+dis(89, 20);
+dis(100, 75);
