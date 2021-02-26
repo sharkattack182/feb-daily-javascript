@@ -661,19 +661,27 @@
 // Date: Feb 24 2021
 // Solve Time: 6 minutes
 
-function makeTitle(string) {
-  var arr = string.split(" ");
-  var returnArr = []
-  arr.forEach(word => {
-    var wordCap = word.charAt(0).toUpperCase() + word.slice(1)
-    returnArr.push(wordCap)
-  });
+// function makeTitle(string) {
+//   var arr = string.split(" ");
+//   var returnArr = []
+//   arr.forEach(word => {
+//     var wordCap = word.charAt(0).toUpperCase() + word.slice(1)
+//     returnArr.push(wordCap)
+//   });
 
-  var returnString = returnArr.join(" ");
-  console.log(returnString)
-}
+//   var returnString = returnArr.join(" ");
+//   console.log(returnString)
+// }
 
-makeTitle("This is a title");
-makeTitle("capitalize every word");
-makeTitle("I Like Pizza");
-makeTitle("PIZZA PIZZA PIZZA");
+// makeTitle("This is a title");
+// makeTitle("capitalize every word");
+// makeTitle("I Like Pizza");
+// makeTitle("PIZZA PIZZA PIZZA");
+
+
+
+// Find the Discount
+// Create a function that takes two arguments: the original price and the discount percentage as integers and returns the final price after the discount.
+// Difficulty: Medium
+// Date: Feb 25 2021
+// Solve Time: 
