@@ -703,4 +703,21 @@
 // Create a function that takes three values: h hours, m minutes, s seconds Return the value that's the longest duration.
 // Difficulty: Medium
 // Date: Feb 26 2021
-// Solve Time: 
+// Solve Time: 7 minutes
+
+function longestTime(h,m,s) {
+  let minutes = m / 60;
+  let seconds = s / 60 / 60;
+  if(Math.max(h, minutes, seconds) === minutes) {
+    console.log(m)
+  } else if(Math.max(h, minutes, seconds) === seconds) {
+    console.log(s)
+  } else {
+    console.log(h)
+  }
+} 
+
+
+longestTime(1, 59, 3598);
+longestTime(2, 300, 15000);
+longestTime(15, 955, 59400);
