@@ -686,13 +686,21 @@
 // Date: Feb 25 2021
 // Solve Time: 4 minutes
 
-function dis(total, disc) {
-  var discPerc = disc / 100;
-  var discount = total * discPerc;
-  console.log(total - discount)
-}
+// function dis(total, disc) {
+//   var discPerc = disc / 100;
+//   var discount = total * discPerc;
+//   console.log(total - discount)
+// }
 
 
-dis(1500, 50);
-dis(89, 20);
-dis(100, 75);
+// dis(1500, 50);
+// dis(89, 20);
+// dis(100, 75);
+
+
+
+// A long long time
+// Create a function that takes three values: h hours, m minutes, s seconds Return the value that's the longest duration.
+// Difficulty: Medium
+// Date: Feb 26 2021
+// Solve Time: 
