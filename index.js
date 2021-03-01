@@ -730,13 +730,20 @@
 // Date: Feb 27 2021
 // Solve Time: 8 minutes
 
-function coneVolume(height, radius) {
-  var baseArea = Math.PI * radius ** 2;
-  var cylVol = baseArea * height;
-  console.log(Math.round(1/3 * cylVol * 10) / 10)
-}
+// function coneVolume(height, radius) {
+//   var baseArea = Math.PI * radius ** 2;
+//   var cylVol = baseArea * height;
+//   console.log(Math.round(1/3 * cylVol * 10) / 10)
+// }
 
 
-coneVolume(3, 2);
-coneVolume(15, 6);
-coneVolume(18, 0);
+// coneVolume(3, 2);
+// coneVolume(15, 6);
+// coneVolume(18, 0);
+
+
+// Match the last item
+// Create a function that takes an array of items and checks if the last item matches the rest of the array concatenated together.
+// Difficulty: Medium
+// Date: Feb 28 2021
+// Solve Time: 
