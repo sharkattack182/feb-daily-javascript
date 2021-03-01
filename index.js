@@ -705,19 +705,27 @@
 // Date: Feb 26 2021
 // Solve Time: 7 minutes
 
-function longestTime(h,m,s) {
-  let minutes = m / 60;
-  let seconds = s / 60 / 60;
-  if(Math.max(h, minutes, seconds) === minutes) {
-    console.log(m)
-  } else if(Math.max(h, minutes, seconds) === seconds) {
-    console.log(s)
-  } else {
-    console.log(h)
-  }
-} 
+// function longestTime(h,m,s) {
+//   let minutes = m / 60;
+//   let seconds = s / 60 / 60;
+//   if(Math.max(h, minutes, seconds) === minutes) {
+//     console.log(m)
+//   } else if(Math.max(h, minutes, seconds) === seconds) {
+//     console.log(s)
+//   } else {
+//     console.log(h)
+//   }
+// } 
 
 
-longestTime(1, 59, 3598);
-longestTime(2, 300, 15000);
-longestTime(15, 955, 59400);
+// longestTime(1, 59, 3598);
+// longestTime(2, 300, 15000);
+// longestTime(15, 955, 59400);
+
+
+
+// Find the volume of a cone
+// Create a function that takes the height and radius of a cone as arguments and returns the volume of the cone rounded to the nearest hundredth.
+// Difficulty: Medium
+// Date: Feb 27 2021
+// Solve Time:
