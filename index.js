@@ -728,4 +728,15 @@
 // Create a function that takes the height and radius of a cone as arguments and returns the volume of the cone rounded to the nearest hundredth.
 // Difficulty: Medium
 // Date: Feb 27 2021
-// Solve Time:
+// Solve Time: 8 minutes
+
+function coneVolume(height, radius) {
+  var baseArea = Math.PI * radius ** 2;
+  var cylVol = baseArea * height;
+  console.log(Math.round(1/3 * cylVol * 10) / 10)
+}
+
+
+coneVolume(3, 2);
+coneVolume(15, 6);
+coneVolume(18, 0);
