@@ -746,4 +746,23 @@
 // Create a function that takes an array of items and checks if the last item matches the rest of the array concatenated together.
 // Difficulty: Medium
 // Date: Feb 28 2021
-// Solve Time: 
+// Solve Time: 5 minutes
+
+function matchLastItem(array) {
+  const lastItem = array[array.length - 1];
+  let compareStr = "";
+  for (let i = 0; i < array.length - 1; i++) {
+    const element = array[i];
+    compareStr += element
+  }
+
+  if(lastItem === compareStr) {
+    console.log(true)
+  } else {
+    console.log(false)
+  }
+}
+
+matchLastItem(["rsq", "6hi", "g", "rsq6hig"]);
+matchLastItem([1, 1, 1, "11"]);
+matchLastItem([8, "thunder", true, "8thundertrue"]);
